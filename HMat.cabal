@@ -57,7 +57,7 @@ library
   other-extensions: DataKinds, GADTs, AllowAmbiguousTypes, KindSignatures, TypeOperators, ScopedTypeVariables, TypeApplications, InstanceSigs, RankNTypes, FlexibleInstances
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.9 && <4.10, typelits-witnesses, lens
+  build-depends:       base >=4.9 , typelits-witnesses, lens
   
   -- Directories containing source files.
   hs-source-dirs:      src
